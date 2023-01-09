@@ -1,4 +1,4 @@
-# lama-with-maskdino
+# Lama-with-MaskDINO
 It was inspired by [Auto-Lama](https://github.com/andy971022/auto-lama#readme).
 
 Unlike Auto-Lama, it differs in:
