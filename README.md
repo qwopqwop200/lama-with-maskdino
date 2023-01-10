@@ -50,6 +50,10 @@ pip install --upgrade numpy==1.23.0
 cd ../..
 pip install gradio
 ```
+4. Run
+```
+python demo.py
+```
 ## Acknowledgments
 Many thanks to these excellent opensource projects
 * [LaMA](https://github.com/saic-mdal/lama)
