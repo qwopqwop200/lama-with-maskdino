@@ -53,6 +53,8 @@ pip install gradio
 4. Run
 ```
 python demo.py
+#localhost
+http://127.0.0.1:7860
 ```
 ## Acknowledgments
 Many thanks to these excellent opensource projects
