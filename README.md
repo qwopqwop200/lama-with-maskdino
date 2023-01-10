@@ -20,9 +20,36 @@ Unlike Auto-Lama, it differs in:
   └─images
        ├──buildings.png
        ├──cat.png
-       └──park.png
+       └──park.png     
 ```
+3.
+```
+conda create --name maskdino python=3.8 -y
+conda activate maskdino
+conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c nvidia
+pip install -U opencv-python
 
+mkdir repo
+git clone git@github.com:facebookresearch/detectron2.git
+cd detectron2
+pip install -e .
+pip install git+https://github.com/cocodataset/panopticapi.git
+
+cd ..
+git clone https://github.com/MeAmarP/MaskDINO.git
+cd MaskDINO
+pip install -r requirements.txt
+cd maskdino/modeling/pixel_decoder/ops
+python setup.py build install
+cd ../../../../..
+
+git clone https://github.com/geomagical/lama-with-refiner.git
+cd lama-with-refiner
+pip install -r requirements.txt 
+pip install --upgrade numpy==1.23.0
+cd ../..
+pip install gradio
+```
 ## Acknowledgments
 Many thanks to these excellent opensource projects
 * [LaMA](https://github.com/saic-mdal/lama)
