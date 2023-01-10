@@ -51,9 +51,9 @@ cd ../..
 pip install gradio
 ```
 4. Run
-```
-python demo.py
+``` bash
 # localhost http://127.0.0.1:7860
+python demo.py
 ```
 ## Acknowledgments
 Many thanks to these excellent opensource projects
