@@ -52,7 +52,7 @@ pip install gradio
 ```
 4. Run
 ``` bash
-# localhost http://127.0.0.1:7860
+#localhost http://127.0.0.1:7860
 python demo.py
 ```
 ## Acknowledgments
