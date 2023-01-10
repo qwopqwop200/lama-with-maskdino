@@ -6,6 +6,7 @@ Unlike Auto-Lama, it differs in:
 1. Use [LaMa with refiner](https://github.com/geomagical/lama-with-refiner) for better results.
 
 ## Environment setup
+A minimum of 12 gb memory gpu is required.
 1. Download pre-trained weights [MaskDINO](https://github.com/IDEA-Research/detrex-storage/releases/download/maskdino-v0.1.0/maskdino_swinl_50ep_300q_hid2048_3sd1_instance_maskenhanced_mask52.3ap_box59.0ap.pth) and [LaMa](https://disk.yandex.ru/d/ouP6l8VJ0HpMZg) 
 1. Put the directory like this
 ```
