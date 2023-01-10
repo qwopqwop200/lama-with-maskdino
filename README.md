@@ -66,3 +66,4 @@ Many thanks to these excellent opensource projects
 * [MaskDINO](https://github.com/IDEA-Research/MaskDINO)
 * [MaskDINO inference code](https://github.com/MeAmarP/MaskDINO/tree/quickfix/infer_demo)
 * [Detectron2](https://github.com/facebookresearch/detectron2)
+* [Auto-Lama](https://github.com/andy971022/auto-lama)
