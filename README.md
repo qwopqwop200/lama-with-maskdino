@@ -36,7 +36,7 @@ pip install -e .
 pip install git+https://github.com/cocodataset/panopticapi.git
 
 cd ..
-git clone https://github.com/MeAmarP/MaskDINO.git
+git clone -b quickfix/infer_demo --single-branch https://github.com/MeAmarP/MaskDINO.git
 cd MaskDINO
 pip install -r requirements.txt
 cd maskdino/modeling/pixel_decoder/ops
