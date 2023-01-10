@@ -1,4 +1,6 @@
 # Lama-with-MaskDINO
+![demo](./images/demo.gif)
+
 It was inspired by [Auto-LaMa](https://github.com/andy971022/auto-lama#readme).
 
 Unlike Auto-Lama, it differs in:
