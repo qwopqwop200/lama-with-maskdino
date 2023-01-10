@@ -22,7 +22,7 @@ Unlike Auto-Lama, it differs in:
        ├──cat.png
        └──park.png     
 ```
-3.
+3. conda environment setup
 ```
 conda create --name maskdino python=3.8 -y
 conda activate maskdino
