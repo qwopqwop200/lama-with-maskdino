@@ -6,7 +6,7 @@ It was inspired by [Auto-LaMa](https://github.com/andy971022/auto-lama#readme).
 Unlike Auto-Lama, it differs in:
 1. Use the object instance segmentation model [MaskDINO](https://github.com/IDEA-Research/MaskDINO) instead of the object detection model [DETR](https://github.com/facebookresearch/detr).
 1. Use [LaMa with refiner](https://github.com/geomagical/lama-with-refiner) for better results.
-## simple demo with [graido](https://github.com/gradio-app/gradio)
+## simple demo with [gradio](https://github.com/gradio-app/gradio)
 ![webui](./images/webui.png)
 ## Environment setup
 A minimum of 12 gb memory gpu is required.
